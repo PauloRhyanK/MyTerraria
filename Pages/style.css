@@ -4,13 +4,22 @@ body {
 }
 
 header {
+  left: 0px;
+  margin: 0px;
+  border: #212124;
+
   display: flex;
   flex-direction: column;
-  background-image: url("assets/background.png");
+  background-color: #232421;
+  background-image: url("/assets/background.png");
   background-size: cover;
   flex-wrap: wrap;
 }
 
+header img {
+  height: 120px;
+  margin: auto;
+}
 /* header h1 {
   color: rgb(255, 200, 117);
   text-shadow: 2px 2px 1px #582c02;
@@ -20,11 +29,6 @@ header {
 
 nav {
   width: 100%;
-}
-
-header img {
-  height: 120px;
-  margin: auto;
 }
 
 .navbar {
