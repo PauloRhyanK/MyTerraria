@@ -17,6 +17,7 @@ header {
 }
 
 header img {
+  padding: 30px;
   height: 120px;
   margin: auto;
 }
